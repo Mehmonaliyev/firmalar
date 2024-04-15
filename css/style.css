@@ -1,0 +1,23 @@
+.info-item {
+    margin-bottom: 10px;
+}
+
+.phone-a {
+    animation: p 1s linear infinite;
+}
+
+@keyframes p {
+    50% {
+        transform: scale(1.123654);
+        color: red;
+    }
+
+    /* 100%{
+        transform: scale(1.2);
+
+    } */
+}
+
+.dot {
+    color: green;
+}
